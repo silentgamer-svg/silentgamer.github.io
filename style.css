@@ -1,0 +1,54 @@
+body,
+ html { 
+    height: 100%;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+  background: url(img/energia.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    color: rgb(218, 228, 235);
+    text-align: center;
+    font-size: 50px;
+}     
+  
+
+hr {
+    height: 3rem;
+    width: 10%;
+    border-top: 3px solid rgb(243, 119, 30);
+    margin: 1rem auto;
+}
+    
+
+
+.buffer {
+    height: 3rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: rgb(230, 107, 26);
+    border-color: rgb(230, 107, 26);
+    
+    
+}
+.btn-primary:hover {
+    background-color: rgb(80, 58, 242);
+    border-color: rgb(57, 68, 218);
+    border-width: 4px;
+     }
+
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
